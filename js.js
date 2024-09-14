@@ -18,7 +18,7 @@ function addBubble() {
     }
     document.querySelector('#bubble_machine').appendChild(b)
 
-    setTimeout(addBubble, Math.random()*5000 + 2000)
+    setTimeout(addBubble, Math.random()*2000 + 2000)
 }
 
 addBubble()
